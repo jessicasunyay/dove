@@ -28,7 +28,7 @@ body, html {
 }
 
 .header a.active {
-  background-color: #43afd1;
+  background-color: #3a9b88;
   color: white;
 }
 
@@ -67,12 +67,31 @@ body, html {
 
 a.center {
     text-decoration: none;
-    color: white;
+    color: rgb(243, 184, 184);
     width: 155px;
 }
 
 a.center:hover {
     transition: background-color .4s ease;
-    color: #43afd1;
-    background-color: #ffffff;
+    color: rgb(243, 184, 184);
+    background-color: white;
+}
+
+.button {
+    background-color: #3a9b88;
+    color: white;
+    border: solid;
+    border-width: 2px;
+    padding: 18px 38px;
+    margin: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+  transition: background-color .4s ease;
+  background-color: white;
+  color: #3a9b88;
 }
